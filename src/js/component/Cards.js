@@ -1,5 +1,5 @@
 import React from "react";
-
+import image from "./test_card.jpg";
 //This is JSX syntax -> HTML + JS
 const Cards = () => {
 	return (
@@ -11,7 +11,7 @@ const Cards = () => {
 					style={{ width: "18rem" }}>
 					<img
 						className="card-img-top"
-						src="holder.js/100px180"
+						src={image}
 						alt="Card image cap"
 					/>
 					<div className="card-body">
@@ -32,7 +32,7 @@ const Cards = () => {
 					style={{ width: "18rem" }}>
 					<img
 						className="card-img-top"
-						src="../../img/rigo-baby.jpg"
+						src={image}
 						alt="Card image cap"
 					/>
 					<div className="card-body">
@@ -53,7 +53,7 @@ const Cards = () => {
 					style={{ width: "18rem" }}>
 					<img
 						className="card-img-top"
-						src="../../img/rigo-baby.jpg"
+						src={image}
 						alt="Card image cap"
 					/>
 					<div className="card-body">
@@ -74,7 +74,7 @@ const Cards = () => {
 					style={{ width: "18rem" }}>
 					<img
 						className="card-img-top"
-						src="../../img/rigo-baby.jpg"
+						src={image}
 						alt="Card image cap"
 					/>
 					<div className="card-body">
